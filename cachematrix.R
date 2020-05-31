@@ -27,6 +27,8 @@ get <- function() x
         
         
 ## Write a short comment describing this function
+## This function give the inverse matrix of the previously obtained matrix by the function makeCacheMatrix
+##Then the cacheSolve function obtain the inverse matrix previously stored
 
  
 cacheSolve <- function(x, ...) {
